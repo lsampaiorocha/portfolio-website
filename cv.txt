@@ -1,0 +1,104 @@
+
+
+Leonardo Sampaio Rocha 
+Machine Learning Engineer 
++5585989279781 | lsampaiorocha@gmail.com | GitHub | LinkedIn 
+ 
+ 
+Machine Learning Engineer with 12+ years in Data Science and 5+ years building and deploying intelligent systems. Specialized in 
+Graph  ML,  LLM  agents,  embeddings,  RAG  pipelines,  and automation of real-world workflows. Proven  ability  to  lead  projects  that 
+delivered >40% efficiency gains in production environments using state-of-the-art techniques with startup-level  execution. I bring a 
+research-driven mindset, hands-on expertise, entrepreneurial vision, and strong leadership skills to deliver real-world ML solutions. 
+ 
+Key Achievements 
+• Led the design and deployment of an AI-powered robotic agent at the Attorney General’s Office of Ceará (9M+ inhabitants, 10K+ 
+processes/month), achieving 95%+ accuracy, reducing workload by 40%, and saving 400+ hours/month. 
+• Led the design and deployment of adaptive learning innovations at the IREDE Institute (R$5M+ annual R&D budget), including a 
+recommendation engine that powered a national ICT training platform for 5,000+ students. 
+• Founded SofIA  Tech, an academic  spin-off company delivering AI training, consulting, and applied solutions, bridging state-of-
+the-art research and market applications. 
+• Consulted  for  Moena.ai,  a  US  fintech  startup  focused  on  hyperpersonalization  and  expansion  into  Brazilian  fintechs  (Stone,  C6 
+Bank), providing guidance that informed the co-founders’ decision not to advance to full implementation. 
+• Supervised  20+  research  projects  and  mentored  MSc,  PhD,  and  undergraduate  students,  while  publishing  20+  peer-reviewed 
+papers (AI, NLP, graph, intelligent systems) with international visibility. 
+• Coordinated the IncubaUECE incubator, designing and implementing programs that supported 30+ startups and deep techs in their 
+growth and innovation strategies. 
+ 
+Skills 
+•Programming Languages: Python, Java, C++ 
+•Machine Learning & NLP: PyTorch, Scikit-learn, NumPy, Transformers (Hugging Face), Fine-tuning, Embeddings, Sentence-Tr
+ansformers, Retrieval-Augmented Generation (RAG), Prompt Engineering 
+•Vector & Graph Systems: FAISS, ChromaDB, Neo4j, Cypher, Knowledge Graphs, Ontology Modeling 
+•Data Science & Analytics: Pandas, NumPy, Scikit-learn, Matplotlib, Power BI, SQL, Jupyter  
+•AI & LLM Tools: OpenAI API, Gemini API, LangChain, LangGraph, Tool Use & Function Calling, Conversational Memory 
+•Cloud & ML Platforms: AWS (SageMaker, Lambda, Bedrock, S3), Google Cloud (Vertex AI, Cloud Storage), Google Colab 
+•Development & DevOps: Docker, Git, CI/CD, Flask, FastAPI, Linux 
+ 
+Experience 
+Attorney General's Office of Ceará                                                                                                                Nov 2023 - Present 
+Machine Learning Engineer                                                                                                                                                   Ceará, Brazil 
+ 
+Led  the  full-cycle  development  of  an  AI-powered robotic agent to automate legal workflows at the Attorney General’s Office of 
+Ceará, the  government  body  responsible  for  defending  the  State  in  over  10,000 legal  cases a  month,  in  a  region  with  8  million 
+inhabitants.  
+• Gathered requirements from legal and IT stakeholders through workshops and interviews to define pain points and goals. 
+• Analyzed internal case/process data using BI dashboards and complex SQL to identify high-impact automation opportunities. 
+• Designed and prototyped an AI-RPA pipeline combining LLMs, rule engines, and retrieval components. 
+• Led development and testing, fine-tuning extraction/classification, applying rule-based validation and fallback logic, and reporting 
+progress to both client and internal leadership. 
+• Deployed  and  monitored  the  system  in  homologation  and  production  environments,  ensuring  traceability,  explainability,  and 
+reproducibility. Achieved >90% accuracy in key tasks and 98.7% dispatch approval without human revision. 
+• Delivered a full automation workflow, from retrieving documents in external  portals to decision-making and dispatch generation  
+integrated with internal systems, yielding >40% productivity gains. 
+
+ 
+Moena.ai                                                                                                                                                    Mar 2025 – July 2025 
+Consultant – AI Research Engineer                                                                                                                          Remote, Florida, USA 
+Short-term consulting 
+ 
+Consulted  for  Moena.ai,  a  US-based  fintech  startup  focused  on  the  hyperpersonalization  of  financial  services  and  expansion  into 
+Brazilian fintechs, advising on the design of a reinforcement learning system for customer personalization. 
+• Mapped  requirements  and  defined  the  technical  architecture,  modeling  the  approach  to  maximize  customer  engagement  and 
+financial outcomes, and discussing adoption with potential clients such as Stone and C6 Bank. 
+• Evaluated infrastructure, costs, and risks, providing strategic guidance that helped the founders realign the product roadmap based 
+on cost–benefit analysis and implementation complexity. 
+IREDE Institute                                                                                                                                             Sep 2022 - Mar 2024                  
+R&D Engineer                        Ceará, Brazil 
+ 
+The IREDE Institute manages over R$5 million annually to develop innovation projects for both the public and private sector, working 
+in partnership with researchers and engineers. Within this context, I led a team in the design and implementation of adaptive learning 
+features for a national ICT training platform reaching 5,000+ students in Information Technology. The platform’s core innovation was 
+a personalized learning environment that dynamically adjusted course content and paths based on student profiles and performance. 
+•  Researched,  prototyped,  and tested  adaptive  learning  strategies,  including  approaches  based  on  knowledge  graphs  and  semantic 
+embeddings, to personalize student learning journeys. 
+• Developed  and  integrated  a  recommendation  engine  for  learning  content,  achieving  a  95%  success  rate  in  human-supervised 
+evaluations. 
+• Designed  a  PoC  framework  leveraging  knowledge  graph–based  user  modeling  to  analyze  learner  behavior  in  immersive  and 
+interactive e-learning environments. 
+ 
+State University of Ceará                                                                                                                               May 2013 - Present 
+Associate Professor                                                                                                                                                                 Ceará, Brazil 
+ 
+Lead R&D in Data Science and AI, with a focus on algorithms, deep learning, NLP, and intelligent systems. Over the past decade, I 
+have combined teaching, research, and innovation leadership to advance both academic and entrepreneurial ecosystems. 
+• Supervised  and  mentored  20+  MSc,  PhD,  and  undergraduate  projects  in  AI,  NLP,  and  intelligent  systems,  fostering  next-
+generation talent and applied innovation. 
+• Published  20+  peer-reviewed  papers  in  top  international  conferences  and  journals  (graph  learning,  NLP,  AI-driven  decision 
+support), contributing to global research visibility (full list at: https://orcid.org/0000-0002-2608-1844) 
+• Coordinated the IncubaUECE incubator, designing and implementing programs that supported 30+ startups and deep techs in their 
+growth and innovation strategies. 
+• Taught graduate  and undergraduate  courses on algorithms, machine  learning, deep learning and NLP,  while serving in academic 
+leadership and administrative roles. 
+• Founded  the  Graph  and  Computational  Intelligence Lab (LAGIC),  leading research on  graph-based  models  and  AI for  decision-
+making, automation, and intelligent systems. 
+ 
+Education 
+    University of Nice Sophia Antipolis, France - PhD, Computer Science 2009 - 2012 
+    Federal University of Ceará, Brazil - Master, Computer Science 2007 - 2009 
+    Federal University of Ceará, Brazil - Bachelor, Computer Science 2003 - 2006 
+ 
+Languages 
+  Portuguese (Native) 
+  English (Fluent) 
+  French (Fluent) 
+ 
