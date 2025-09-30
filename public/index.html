@@ -1,89 +1,206 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/12.3.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/12.3.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/12.3.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+  
+    <title>Leonardo Rocha — Machine Learning Engineer</title>
+    <meta name="description" content="Machine Learning Engineer specialized in Graph ML, LLM agents, embeddings, RAG pipelines, and real-world workflow automation.">
+    <meta name="keywords" content="Leonardo Rocha, Machine Learning Engineer, Graph ML, LLM Agents, Embeddings, RAG, Workflow Automation, AI">
+    <meta name="author" content="Leonardo Rocha">
+  
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Leonardo Rocha — Machine Learning Engineer">
+    <meta property="og:description" content="Machine Learning Engineer specialized in Graph ML, LLM agents, embeddings, RAG pipelines, and real-world workflow automation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://leonardorocha.ai">
+    <meta property="og:image" content="https://leonardorocha.ai/assets/images/preview.png">
+  
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Leonardo Rocha — Machine Learning Engineer">
+    <meta name="twitter:description" content="Machine Learning Engineer specialized in Graph ML, LLM agents, embeddings, RAG pipelines, and real-world workflow automation.">
+    <meta name="twitter:image" content="https://leonardorocha.ai/assets/images/preview.png">
+  
+    <!-- SEO extra -->
+    <link rel="canonical" href="https://leonardorocha.ai">
+  
+    <!-- Fonts & Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
   </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Home">
+        <span class="dot" aria-hidden="true"></span>
+        <span>LEONARDO ROCHA</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Highlights</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle btn btn-ghost" aria-expanded="false" aria-controls="mobile-menu" data-nav-toggle>
+        Menu
+      </button>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <div id="mobile-menu" class="mobile-menu" data-mobile-menu>
+      <a href="#about">About</a>
+      <a href="#projects">Highlights</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+  <main id="content" tabindex="-1">
+    <section class="hero">
+      <div class="container">
+        <h1>Leonardo Rocha</h1>
+        <p class="subtitle">Machine Learning Engineer with 12+ years in Data Science and 5+ years building and deploying intelligent systems. Specialized in Graph ML, LLM agents, embeddings, RAG pipelines, and automation of real-world workflows. Research-driven mindset with hands-on execution to deliver measurable impact.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">View Highlights</a>
+          <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Key Highlights</h2>
+        <div class="grid projects-grid">
+          <div class="card"><div class="card-body">
+            <div class="card-title">AI Robotic Agent — Attorney General’s Office of Ceará</div>
+            <div class="card-meta">95%+ accuracy · 40% workload reduction · 400+ hours/month saved</div>
+          </div></div>
+          <div class="card"><div class="card-body">
+            <div class="card-title">Adaptive Learning Platform — IREDE Institute</div>
+            <div class="card-meta">Recommendation engine powering 5,000+ students · 95% success (human-supervised)</div>
+          </div></div>
+          <div class="card"><div class="card-body">
+            <div class="card-title">SofIA Tech — AI Training & Consulting</div>
+            <div class="card-meta">Bridging state-of-the-art research and market applications</div>
+          </div></div>
+          <div class="card"><div class="card-body">
+            <div class="card-title">IncubaUECE — Startup Incubator</div>
+            <div class="card-meta">Programs supporting 30+ startups and deep techs</div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="muted" style="max-width: 800px; margin: 0 auto; text-align: center;">Machine Learning Engineer specialized in Graph ML, LLM agents, embeddings, Retrieval-Augmented Generation (RAG), and automation of real-world workflows. Proven ability to lead projects that deliver measurable efficiency gains with startup-level execution.</p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="stack-lg">
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">Machine Learning Engineer — Attorney General's Office of Ceará</div>
+            <div class="card-meta">Nov 2023 — Present · Ceará, Brazil</div>
+            <p class="muted">Led design and deployment of an AI-powered robotic agent automating legal workflows. Achieved >90% accuracy in key tasks, 98.7% dispatch approval without human revision, and >40% productivity gains.</p>
+          </div></div>
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">Consultant – AI Research Engineer — Moena.ai</div>
+            <div class="card-meta">Mar 2025 — Jul 2025 · Remote, Florida, USA</div>
+            <p class="muted">Advised on reinforcement learning system for customer personalization. Defined technical architecture, mapped requirements, and evaluated infrastructure, costs, and risks to inform product roadmap decisions.</p>
+          </div></div>
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">R&D Engineer — IREDE Institute</div>
+            <div class="card-meta">Sep 2022 — Mar 2024 · Ceará, Brazil</div>
+            <p class="muted">Led design and implementation of adaptive learning features for a national ICT training platform (5,000+ students). Built recommendation engine with 95% success rate in human-supervised evaluations.</p>
+          </div></div>
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">Associate Professor — State University of Ceará</div>
+            <div class="card-meta">May 2013 — Present · Ceará, Brazil</div>
+            <p class="muted">Lead R&D in Data Science and AI. Supervised 20+ projects, published 20+ peer-reviewed papers, coordinated IncubaUECE, and founded the Graph and Computational Intelligence Lab (LAGIC).</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="grid" style="grid-template-columns: repeat(3, minmax(0,1fr)); gap: 24px;">
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">AI & ML</div>
+            <div class="badges"><span class="badge">Transformers</span><span class="badge">NLP</span><span class="badge">Graph ML</span><span class="badge">RAG</span><span class="badge">LLM Agents</span></div>
+          </div></div>
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">Technologies</div>
+            <div class="badges"><span class="badge">Python</span><span class="badge">PyTorch</span><span class="badge">Scikit-learn</span><span class="badge">Pandas</span><span class="badge">NumPy</span><span class="badge">Transformers</span><span class="badge">FAISS</span><span class="badge">ChromaDB</span><span class="badge">Neo4j</span><span class="badge">Cypher</span><span class="badge">SQL</span></div>
+          </div></div>
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">Platforms & Tools</div>
+            <div class="badges"><span class="badge">OpenAI API</span><span class="badge">Gemini API</span><span class="badge">LangChain</span><span class="badge">LangGraph</span><span class="badge">AWS (SageMaker, Lambda, Bedrock, S3)</span><span class="badge">GCP (Vertex AI)</span><span class="badge">Docker</span><span class="badge">Git</span><span class="badge">CI/CD</span><span class="badge">Flask</span><span class="badge">FastAPI</span><span class="badge">Linux</span></div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="stack-lg">
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">PhD, Computer Science — University of Nice Sophia Antipolis, France</div>
+            <div class="card-meta">2009 — 2012</div>
+          </div></div>
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">Master, Computer Science — Federal University of Ceará, Brazil</div>
+            <div class="card-meta">2007 — 2009</div>
+          </div></div>
+          <div class="surface card"><div class="card-body">
+            <div class="card-title">Bachelor, Computer Science — Federal University of Ceará, Brazil</div>
+            <div class="card-meta">2003 — 2006</div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title" style="text-align: center;">Get in Touch</h2>
+        <div class="surface card">
+          <div class="card-body stack-md" style="text-align: center;">
+            <p class="muted">Prefer email? Reach me directly.</p>
+            <div class="muted">lsampaiorocha [at] gmail [dot] com</div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="muted">© <span id="year"></span> Leonardo Rocha. All rights reserved.</div>
+      <div class="socials">
+        <a href="https://github.com/lsampaiorocha" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/Isrocha85" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://orcid.org/0000-0002-2608-1844" target="_blank" rel="noopener" aria-label="ORCID">ORCID</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
+
+
